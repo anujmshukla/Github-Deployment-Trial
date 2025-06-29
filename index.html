@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beautiful Login Page</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="/script.js"></script>
+</head>
+<body>
+  <div class="login-container">
+    <h2><span id="wave-hand">👋</span> Welcome Back</h2>
+    <div id="error-message" style="color: red; margin-bottom: 10px;"></div>
+    <form>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Enter your email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Enter your password" required />
+      </div>
+
+      <button type="submit" class="login-btn">Login</button>
+
+      <div class="signup-link">
+        Don’t have an account? <a href="#">Sign up</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
